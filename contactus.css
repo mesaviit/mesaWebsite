@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, rgb(151, 99, 255), rgba(151, 103, 253, 0.98), rgba(151, 106, 250, 0.95), rgba(151, 110, 248, 0.93), rgba(151, 113, 246, 0.91), rgba(151, 117, 244, 0.88), rgba(150, 120, 241, 0.86), rgba(150, 124, 239, 0.83), rgba(150, 127, 237, 0.81), rgba(150, 131, 235, 0.79), rgba(150, 134, 232, 0.76), rgba(150, 138, 230, 0.74));
+    /* background-image: linear-gradient(to right, #a517ba, #5f1782); */
+}
+#nav-bar .navbar ul li a {
+    color: #fff;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+    padding: 0 10px;
+  }
+  #nav-bar .navbar ul li:hover{
+      display: block;
+      content: '';
+      /* transform: translateX(-5px); */
+      transform: translateX(-5px) translateY(-5px);
+      transition: .3s;
+  }
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 20px;
+}
+/* -----------------------------------------BANNER SECTION----------------------------------------------  */
+#banner{
+    background-image: linear-gradient(to right, rgb(151, 99, 255), rgba(151, 103, 253, 0.98), rgba(151, 106, 250, 0.95), rgba(151, 110, 248, 0.93), rgba(151, 113, 246, 0.91), rgba(151, 117, 244, 0.88), rgba(150, 120, 241, 0.86), rgba(150, 124, 239, 0.83), rgba(150, 127, 237, 0.81), rgba(150, 131, 235, 0.79), rgba(150, 134, 232, 0.76), rgba(150, 138, 230, 0.74));
+    color: #fff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-family: 'Major Mono Display', monospace;
+    font-size: 40px;
+    font-weight: 600px;
+    margin-top: 100px;
+}
+#banner button{
+    background-color:transparent;
+    border-color: transparent;
+    padding:10px;
+  border-radius: 20px;
+}
+#banner a{
+    color: #fff;
+    /* font-size: 33px; */
+    text-decoration: none;
+}
+
+.bottom-img{
+    width: 100%;
+}
+/* ALSO */
+.title{
+    text-align: center;
+}
+.title::before
+{
+    content: '';
+    background: #7b1798;
+    height: 5px;
+    width: 200px;
+    margin-left:auto ;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+/* SOCIAL MEDIA */
+#social-media{
+    background: #dbebfc;
+    padding: 100px 0;
+}
+#social-media p{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+#social-media .social-icons img{
+    width: 60px;
+    transition: 0.5s;
+}
+#social-media .social-icons a:hover img{
+    transform: translateY(-10px);
+}
